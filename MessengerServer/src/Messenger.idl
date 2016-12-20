@@ -1,0 +1,26 @@
+/**
+*
+* @author David
+*/
+module MessengerApp
+{
+	struct Message{
+		string from;
+		string to;
+		string message;
+		string date;
+	};
+
+
+	interface Messenger
+	{
+		typedef sequence<string> clients;
+		typedef sequence<Message> messages;
+		void connect(in string pseudo);
+		void disconnect(in string pseudo);
+		clients getClients();
+		void sendMessage(in Message message);
+		messages getMessages(in string pseudo);
+		oneway void shutdown();
+	};
+};
