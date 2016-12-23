@@ -1,7 +1,7 @@
-# CORBAmessenger_EMA_071116
+# CORBA_EMA_071116
 ## Messenger
 
-[![LogoMessenger](https://github.com/DavAnaton/CORBAmessenger-EMA-060117/raw/master/Docs/logo.png)]()
+[![LogoMessenger](https://raw.githubusercontent.com/DavAnaton/CORBA-EMA-060117/master/Docs/logo.png)]()
 
 Messenger is a Client-server messenger application using CORBA on Java we had to develop for my third year in engineering school at l'École des Mines d'Alès.
 
@@ -13,7 +13,7 @@ For now, you can:
 
 ### Installation
 
-Messenger is running using [CORBA](https://nodejs.org/).
+Messenger is running using [CORBA](http://www.corba.org/).
 
 You can find a small tutorial on CORBA right  [here](http://www.ejbtutorial.com/programming/tutorial-for-corba-hello-world-using-java).
 
