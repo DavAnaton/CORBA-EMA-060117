@@ -9,6 +9,7 @@ module MessengerApp
 		string to;
 		string message;
 		string date;
+		string toString();
 	};
 
 

@@ -26,7 +26,9 @@ public final class Message implements org.omg.CORBA.portable.IDLEntity
     message = _message;
     date = _date;
   } // ctor
+
   public String toString(){
 	  return this.date + "\t" + this.from + "@" + this.to + ">" + this.message;
   }
+  
 } // class Message
